@@ -3,7 +3,7 @@ hoursP = document.querySelector("div.Hours > p.num");
 minutesP = document.querySelector("div.Minutes > p.num");
 secondsP = document.querySelector("div.Seconds > p.num");
 
-let dateTarget = new Date("13 July 2024 12:00:00");
+let dateTarget = new Date("20 July 2024 12:00:00");
 setInterval(() => {
   let dateNow = new Date().getTime();
   let dateDiff = dateTarget - dateNow;
